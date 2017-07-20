@@ -1,0 +1,21 @@
+{
+	"name": "ariffazmi/mailchimp",
+    "description": "Straight forward mailchimp service package for php",
+    "authors": [
+        {
+            "name": "Ariff Azmi",
+            "email": "ariff.azmi16@gmail.com"
+        }
+    ],
+    "keywords": ["subscribe", "mailchimp", "php"],
+    "require": {
+        "php": "> 5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Service\\": "src/"
+        }
+    },
+	"minimum-stability": "dev",
+	"license": "MIT"
+}
